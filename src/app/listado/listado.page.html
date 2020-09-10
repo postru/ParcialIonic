@@ -8,15 +8,18 @@
   
 </ion-header>
  
-<ion-content>
+<ion-content [fullscreen]="true">
   
- 
- <ion-list>
-   <li ion-item *ngFor="let item of lis">
-    <span class="badge">{{item.name}}</span>
-   </li>
- </ion-list>
-  
- 
+ <ion-list ion-item *ngFor="let item of lis">
 
+  <ion-item>
+    <ion-label>
+      {{item.id}} - {{item.name}}
+    </ion-label>
+    </ion-item>
+ </ion-list>
+ <div style="text-align: center;margin:auto;">
+  <ion-button [routerDirection]="'root'" [routerLink]="'/home'">Terminar</ion-button>
+</div>
+<ion-router-outlet></ion-router-outlet>
 </ion-content>
