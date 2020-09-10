@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>autodiagnóstico</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+
+  <ion-list>
+    <ion-card-subtitle>Seleccione los sintomas que presenta:</ion-card-subtitle>
+      <ion-item>
+        <ion-label>
+          Fiebre
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Dolor de garganta
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Congestion nasal
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Tos
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Dificultad para respirar
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+         Fatiga
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Escalofrio
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Dolor muscular
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Ninguno de los anteriores
+        </ion-label>
+        <ion-checkbox checked="false"></ion-checkbox>
+      </ion-item>
+         
+      
+    </ion-list>
+    <div style="text-align: center;margin:auto;">
+    <ion-button [routerDirection]="'root'" [routerLink]="'/home'">Enviar</ion-button>
+  </div>
+</ion-content>
+
+

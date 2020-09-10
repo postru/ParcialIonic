@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>     
+    <ion-title>
+      LEI Tuluá
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Covid 19</ion-card-subtitle>
+    </ion-card-header>
+    <img src="assets/img/covid.png" />
+    <ion-card-content>
+      Manténgase al día de la información más reciente sobre el brote de COVID-19. 
+      La mayoría de las personas que se infectan padecen una enfermedad leve
+        y se recuperan, pero en otros casos puede ser más grave.
+    </ion-card-content>
+  </ion-card>
+  <div style="text-align: center;margin:auto;">
+    <ion-button (click)="logOut()">Log out</ion-button>
+  </div>
+</ion-content>
+
+

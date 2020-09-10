@@ -1,0 +1,7 @@
+{
+  "name": "Parciafb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

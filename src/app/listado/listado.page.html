@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>listado</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+ 
+<ion-content>
+  
+ 
+ <ion-list>
+   <button ion-item *ngFor="let item of lis">
+   {{item.name}}
+   </button>
+ </ion-list>
+  
+  
+
+</ion-content>
