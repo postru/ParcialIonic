@@ -7,7 +7,7 @@ export const HEROES: Hero[] = [
   //{ id: 4, name: 'Tos' },
   { id: 5, name: 'Dificultad para respirar' },
   { id: 6, name: 'Fatiga' },
-  { id: 7, name: 'DEscalofrio' },
+  { id: 7, name: 'Escalofrio' },
   //{ id: 8, name: 'Dolor muscular' },
   //{ id: 9, name: 'Ninguno de los anteriores' },
  ];
