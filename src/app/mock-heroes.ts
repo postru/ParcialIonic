@@ -1,4 +1,4 @@
-import { Hero } from './hero';
+import { Hero, visita } from './hero';
 
 export const HEROES: Hero[] = [
  // { id: 1, name: 'Fiebre' },
@@ -11,3 +11,14 @@ export const HEROES: Hero[] = [
   //{ id: 8, name: 'Dolor muscular' },
   //{ id: 9, name: 'Ninguno de los anteriores' },
  ];
+
+ export const VISITAS: visita[] = [
+     
+    { lugar:"Habemus Burger", estado: 'No' },
+    { lugar:"Cheese Food Tulua", estado: 'Si' },
+    { lugar:"Juggers Tulua", estado: 'Si' },
+    { lugar:"Rogers Tulua", estado: 'Si' },
+    { lugar:"La Tostonera", estado: 'No' },
+    { lugar:"Leños & Carbon", estado: 'No' },
+    { lugar:"El Corral", estado: 'No' },
+    ];

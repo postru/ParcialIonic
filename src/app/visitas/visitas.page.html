@@ -7,6 +7,26 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Covid 19</ion-card-subtitle>
+    </ion-card-header>
+    <img src="assets/img/c19.png" />
+    <ion-card-content>
+      
+    </ion-card-content>
+  </ion-card>
+  <ion-card-header>
+  <ion-card-subtitle>Lugares que talvez han
+    recibido personas con reporte positivo de Diagnostico de covid 19 </ion-card-subtitle>
+</ion-card-header>
+  <ion-list ion-item *ngFor="let item of lis">
 
+    <ion-item>
+      <ion-label>
+        {{item.lugar}} - ( {{item.estado}}  )
+      </ion-label>
+      </ion-item>
+   </ion-list>
 </ion-content>
